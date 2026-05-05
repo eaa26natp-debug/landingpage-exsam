@@ -1,0 +1,71 @@
+/* Optional: Add some transition effects */
+.slideshow-section {
+  width: 100%;
+  max-width: 600px;
+  margin: 40px auto;
+}
+
+.slideshow-container {
+  position: relative;
+  width: 100%;
+}
+
+.slide {
+  display: none;
+}
+
+.slide img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  padding: 10px;
+  color: white;
+  background: rgba(0,0,0,0.4);
+  transform: translateY(-50%);
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+.fade {
+  animation: fade 1s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.dots {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 5px;
+  background-color: gray;
+  display: inline-block;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.dot:hover {
+  background-color: navy;
+}
+
+.active {
+  background-color: rgb(168, 223, 168);
+}

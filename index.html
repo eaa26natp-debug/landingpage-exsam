@@ -1,0 +1,374 @@
+
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUMINA AUIDO </title>
+<link rel="icon" type="image/x-icon" href="img1/lumina-logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css-forside/style.css">
+    <link rel="stylesheet" href="css/css-billeder/style.css">
+    <link rel="stylesheet" href="css/box.css/box.css">
+    <link rel="stylesheet" href="css/css-specs/style.css">
+    <link rel="stylesheet" href="css/css-slideshow/slideshow.css">
+</head>
+
+<body>
+    <!-- Header med navigation -->
+    <header>
+        <!-- Brand name -->
+       
+        <img src="img1/lumina-logo.png" class="brand" alt="logo">
+        
+
+        <!-- Skjult checkbox til mobile menu -->
+        <input type="checkbox" id="menu-bar">
+        <label for="menu-bar">Menu</label>
+
+        <!-- Navigation -->
+        <nav class="navbar1">
+            <ul>
+                <li><a href="#">Produkter</a></li>
+                <li><a href="#">Tilbehør</a></li>
+                <li><a href="#">Kontakt</a></li>
+                <li><a href="#">Om os</a></li>
+            </ul>
+        </nav>
+
+       <nav class="sub-menu">
+        <div class="menu-brand"> LUMINA ONE </div>
+
+       </nav>
+
+
+
+        <!-- Workshop button -->
+
+    <section class="workshop-btn">
+
+    <button class="search-btn" onclick="toggleSearch()">
+        <img class="icon-search" src="img1/search_7175397.png" alt="icon søgning">
+    </button>
+
+    <input type="text" class="search-input" placeholder="Søg...">
+
+      <button>
+        <img class="icon-kurv" src="img1/trolley.png" alt="icon kurv">
+    </button>
+    
+    </section>
+    </header>
+
+<section class="header2">
+
+    <a>LUMINA ONE</a>
+
+     <nav class="navbar2">              
+        <a id="description" href="#">Beskrivelse</a>
+        <a id="specications" href="#sektion2">Specifikationer</a>
+
+        </nav>
+</section>
+
+
+
+
+
+
+    <!-- Hero Section -->
+  <section class="hero1">
+    <div class="hero-content">
+        <h1>LUMINA ONE.</h1>
+        <i>Kompakt og bærbar - for en medrivende lytteoplevelse</i>
+    </div>
+
+    <div class="product-corner-box">
+        <h2 id="lumina-one">LUMINA ONE</h2>
+        <p id="vaterproof">Vandtæt udendørs højttaler</p>
+        <p id="color"> Farve: Dusty Rose</p>
+        <div id="price-tag">1499,-</div>
+        <button id="cart-button">Læg i kurv</button>
+        <p id="delivery-text">Forventet leveringstid: 2-6 hverdage</p>
+    </div>
+</section>
+  
+
+<hr class="breakline">
+
+<p class="headline">Galleri</p>
+
+<!-- Slideshow -->
+<section class="slideshow-section">
+
+<div class="slideshow-container">
+
+   <div class="slide fade" >
+    <img src="img1/bord.png" alt="Grøn højtaler på">
+    </div> 
+
+<div class="slide fade" >
+    <img src="img1/soe.png" alt="Højtaler ved sø">
+    </div>
+
+    <div class="slide fade" >
+    <img src="img1/bad.png" alt="Højtaler ved badekar">
+    </div>
+
+    <div class="slide fade" >
+    <img src="img1/pool.png" alt="Højtaler ved pool">
+    </div>
+
+    <div class="slide fade" >
+    <img src="img1/strand.png" alt="Højtaler på strand">
+    </div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+</div>
+
+<div class="dots">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+    <span class="dot" onclick="currentSlide(4)"></span> 
+    <span class="dot" onclick="currentSlide(5)"></span> 
+  </div>
+
+</section>
+
+<hr class="breakline">
+
+<!-- trustpilot -->
+<article class="trustpilot">
+<img src="img1/Trustpilot.png" alt="Reviews" >
+</article>
+
+<hr class="breakline">
+
+   <!-- Boxs -->
+<section  class="features">
+<div class="grid">
+
+    <div class="card water">
+        <figure>
+            <img src="fotos-landing-page/adobe-Express-file(2).png.png" alt="dråbe">
+        </figure>
+        <h3>Vandafvisende IPX5</h3>
+        <figure>
+            <img src="img1/dette_billede_er_det_rigtige-removebg-preview.png" alt="højtaler">
+        </figure>
+    </div>
+
+    <div class="card sound">
+        <figure>
+            <img src="fotos-landing-page/Speaker_Icon.svg" alt="lydstyrke">
+        </figure>
+        <h3>100dB lydstyrke</h3>
+    </div>
+
+    <div class="card solar">
+        <figure>
+            <img src="fotos-landing-page/634955108_2188164685343838_8072572165099301531_n.png" alt="solcelle">
+        </figure>
+        <h3>Opladning VIA Solen</h3>
+        <figure>
+            <img src="fotos-landing-page/626457101_908542334971532_3338900224519378059_n.png" alt="solcelle">
+        </figure>   
+    </div>
+
+    <div class="card triple">
+            <figure>
+                <img src="fotos-landing-page/634589584_903200945766906_4445373448560554664_n.webp" alt="Bluetooth">
+        </figure>
+        <figure>
+            <img src="fotos-landing-page/632546379_2670097096699799_2294532860263457610_n.png" alt="Type-C">
+        </figure>
+        <figure>
+            <img src="fotos-landing-page/Adobe-Express-file(3).png" alt="3 kg">
+        </figure>
+            <h3>Bluetooth - 5.3</h3>
+        <h3>Type-C import</h3>
+        <h3>3 kg</h3>
+    </div>
+    
+<hr id="sektion2">
+
+    <div class="card app">
+        <figure>
+            <img src="fotos-landing-page/450545700_1688143415058776_5759401084283862686_n.png" alt="telefon">
+        </figure>
+        <h3>Styring via App</h3>
+        <figure>
+            <img src="fotos-landing-page/Adobe-Express-file-kopi-2.png" alt="højtaler">
+        </figure>
+    </div>
+
+</div>
+
+<!-- END Grid class-->
+</section>
+
+
+
+
+<section>
+    <!-- Øverste overskrift -->
+<p class="headline">Funktioner & Specifikationer:</p>
+</section>
+<hr id="breakline-specs">
+
+<!-- Felt nummer et -->
+
+<section>
+    <!-- Overskrift med Design og Materialer  -->
+
+<article class="container1">
+
+    <article class="container-bullets">
+    <p class="second-headliners"> Design & Materialer</p>
+
+<ul class="bullets">
+    <li>3 forskellige farvevarianter</li>
+</ul>
+<!-- p = beskrivelse af farverne  -->
+<p class="descriptions"> Dusty Rose – Sage Green – Black</p>
+
+<ul class="bullets">
+<li>Vægt – 3kg</li>
+<li>Vandafvisende overflade – IPX5</li>
+<li>Integreret ambient-lys</li>
+</ul>
+<p class="descriptions"> Chill mode</p>
+<p class="descriptions"> Party mode</p>
+<p class="descriptions"> Sunset mode</p>
+    </article>
+    
+<!-- Billede af højtaleres farver -->
+<figure class="pic-container">     
+<img class="pictures" id=dif-colors-pic src="img/all-colors.png" alt="Forskellige farve varianter">
+</figure>
+
+</article>
+</section>
+
+<!-- Felt nummer to -->
+<section>
+<!-- Ny sektion -->
+<hr class="breakline">
+    <!-- Ny del-overskrift -->
+
+<article class="container1">
+    <article class="container-bullets">
+        <p class="second-headliners">Parring & Bluetooth</p>
+        
+        
+<ul class="bullets">
+<li>Bluetooth version 5.3</li>
+<li>Bluetooth rækkevidde – 35 meter</li>
+<li>Stereo pairing – <span id="connect">connect med andre enheder</span></li>
+<li>App-kompatibilitet (iOS & Android)</li>
+</ul>
+    </article>
+
+    <!-- Billede af mennesker omkring højtaler -->
+     <figure class="pic-container">
+<img class="pictures" id=community-pic src="img/community.png" alt="Fælleskab omkring Lumina One">
+    </figure>
+
+</article>
+</section>
+
+<!-- Felt nummer tre -->
+<section>
+<!-- Ny sektion -->
+<hr class="breakline">
+
+<article class="container1">
+    <article class="container-bullets">
+
+    <!-- Ny del-overskrift -->
+    <p class="second-headliners">Batteri & Lyd</p>
+    
+<ul class="bullets">
+<li>Batteritid: Op til 18 timer</li>
+<li>Opladning USB-C</li>
+<li>Batteritype: Genopladeligt lithium-batteri</li>
+<li>Solcelle-panel til forlængelse af levetid</li>
+<li>Lydstyrke op mod 100 dB</li>
+</ul>
+    </article>
+
+    <figure class="pic-container">
+    <!-- Bagside af højtaler billede -->
+<img class="pictures" id="speaker-bottons-pic" src="img/speaker-bottons-png.png" alt="Bagside af Lumina One">
+    </figure>
+
+</article>
+
+</section>
+
+
+<!-- Felt nummer fire -->
+<section>
+<!-- Ny sektion -->
+<hr class="breakline">
+<article class="container1">
+
+    <article class="container-bullets">
+<!-- Ny del-overskrift -->
+<p class="second-headliners" id="pakkens-indhold">Pakkens indhold</p>
+    
+<ul class="bullets">
+<li>x1 LUMINA ONE SPEAKER</li>
+<li>x1 USB-C opladerr</li>
+<li>x1 LUMINA AUDIO  Stof tote-bag</li>
+</ul>
+    </article>
+
+
+<!-- Billede af totebag -->
+ <figure class="pic-container">
+<img class="pictures" id="totebag-pic" src="img/totebag.png" alt="Stof tote-bag med LUMINA AUDIO Logo">
+</figure>
+
+
+</article>
+
+</section>
+
+<footer class="footer">
+
+<article class="footer-indhold">
+<hr class="footer-line">
+<p>Kontakt</p>
+<hr class="footer-line">
+<p>Om os</p>
+<hr class="footer-line">
+<p>Produkter</p>
+<hr class="footer-line">
+<p>Tilbehør</p>
+<hr class="footer-line">
+</article>
+
+<p>Email: <a href="">.....</a></p>
+
+<h6>&copy; 2023 Lumina Audio. All rights reserved.</h6>
+
+</footer>
+
+
+
+
+
+    <script src="js/stricp.js"></script>
+</body>
+</html>
+
+

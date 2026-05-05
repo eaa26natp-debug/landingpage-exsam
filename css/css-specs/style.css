@@ -1,0 +1,96 @@
+
+.headline {
+font-size: 35px;
+font-family: "Inter", sans serif;
+font-weight: 400;
+font-style: normal;
+margin-left: 50px;
+margin-top: 100px;
+}
+
+
+
+.second-headliners{
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 30px;
+    font-family: "Inter", sans serif;
+    font-weight:300
+}
+
+.bullets{
+margin-top: 30px;
+    margin-left: 70px;
+    font-size: 16px;
+    font-family: "Inter", sans serif;
+    font-weight: 300;
+    line-height: 28px;
+
+}
+
+.descriptions{
+    margin-left: 70px;
+    font-size: 16px;
+    font-family: "Inter", sans serif;
+    font-weight: 300;
+    line-height: 30px;
+    font-style: italic;
+}
+#connect{
+    font-style: italic;
+}
+
+#community-pic{
+    width: 500px;
+}
+
+.container1{
+    margin-left: 20px;
+display: flex;
+flex-direction: row;
+}
+
+.container-bullets{
+    flex-direction: column;
+}
+
+.pic-container{
+margin-left: 450px;
+width: 100px;
+}
+
+#pakkens-indhold{
+margin-top: 120px;
+}
+
+#totebag-pic{
+    margin-left: 150px;
+}
+
+.footer{
+    background-color: rgb(168, 223, 168); ;
+padding: 20px 20px;
+}
+
+.footer-indhold{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+font-family:"Inter", sans serif;
+font-weight: 200;
+}
+
+.footer-line{
+border-color: rgb(42, 41, 41);
+border-width: 0.001em;
+}
+
+#sektion2{
+    color: #e3d3c1;
+    border: none;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}

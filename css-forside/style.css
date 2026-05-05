@@ -1,0 +1,387 @@
+/* CSS VARIABLER - KUN FARVER, TYPOGRAFI OG FONT WEIGHTS */
+    :root {
+        /* Farver */
+        --primary-color: #000;
+        --secondary-color: #333;
+        --white: #fff;
+        --light-gray: #eee;
+        
+        /* Typografi */
+        --font-family: 'Inter', Arial, sans-serif;
+        --font-size-small: 13px;
+        --font-size-base: 16px;
+        --font-size-medium: 18px;
+        --font-size-large: 20px;
+        --font-size-xl: 24px;
+        --font-size-xxl: 28px;
+        --font-size-hero: 4.5rem;
+        --font-size-hero-tablet: 3rem;
+        --font-size-hero-mobile: 2.5rem;
+        
+        /* Font weights */
+        --font-weight-normal: 400;
+        --font-weight-medium: 500;
+        --font-weight-semibold: 600;
+        --font-weight-bold: 700;
+    }
+
+    /* RESET */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: var(--font-family);
+        line-height: 1.6;
+    }
+
+    /* HEADER/NAVIGATION */
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background: var(--white);
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        padding: 0px 7%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        z-index: 1000;
+        background-color: rgb(168, 223, 168);
+        
+    }
+
+  .header2 {
+        position: fixed;
+        left: 0;
+        right: 0;
+        background: var(--white);
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        padding: 5px 7%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        z-index: 1000;
+        background-color: #dfc6c0;
+         font-size: var(--font-size-l);
+        font-weight: var(--font-weight-bold);
+    }
+
+    .navbar2{
+        word-spacing: 70px;
+    }
+    
+    #description{
+        text-decoration: none;
+        color: black;
+    }
+    #specications{
+        text-decoration: none;
+        color: black;
+    }
+
+
+    /* Brand name */
+    header .brand {
+        font-size: var(--font-size-xxl);
+        font-weight: var(--font-weight-bold);
+        color: var(--primary-color);
+        letter-spacing: 2px;
+        text-decoration: none;
+       width: 65px;
+        border-radius: 60px;
+        padding: 12px;
+        
+    }
+
+    /* Navigation */
+    header .navbar1 ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+    }
+
+      header2 .navbar2 ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+    }
+
+
+
+      header .navbar1 ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+    }
+
+    header2 .navbar2 ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+    }
+
+    header .navbar1 ul li a {
+        text-decoration: none;
+        font-size: var(--font-size-base);
+        padding: 15px 50px;
+        color: var(--primary-color);
+        display:block;
+        font-weight: var(--font-weight-medium);
+        transition:color 0.3s ease;
+    }
+
+    header2 .navbar2 ul li a {
+        text-decoration:none;
+        font-size:var(--font-size-base);
+        padding: 15px 50px;
+        color: var(--primary-color);
+        display:block;
+        font-weight:var(--font-weight-medium);
+        transition:color 0.3s ease;
+    }
+
+    header .navbar1 ul li a:hover {
+        color: var(--secondary-color);
+        text-decoration: underline;
+    }
+
+      header .navbar2 ul li a:hover {
+        color: var(--secondary-color);
+        text-decoration: underline;
+    }
+
+
+
+
+    /* Workshop button */
+    .workshop-btn {        
+        padding: 15px 30px;
+        border:none;
+        border-radius:6px;
+        cursor:pointer;
+        transition:all 0.3s ease;
+        text-decoration:none;
+        display: flex;
+        background-color: transparent;
+    }
+
+    .search-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.search-input {
+  width: 0;
+  opacity: 0;
+  transition: 0.3s;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 6px;
+}
+
+.search-input.active {
+  width: 150px;
+  opacity: 1;
+}
+
+.workshop-btn .icon-search {
+    max-width: 20px;
+    margin: 25px;
+}
+
+.workshop-btn .icon-kurv {
+    max-width: 30px;
+    margin: 25px;
+
+
+}
+
+    .workshop-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .workshop-btn button {
+    background: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+    /* Hidden checkbox for mobile menu */
+    #menu-bar {
+        display: none;
+    }
+
+    /* Mobile menu label */
+    header label {
+        font-size: var(--font-size-large);
+        color: var(--secondary-color);
+        cursor: pointer;
+        display: none;
+        font-weight: var(--font-weight-semibold);
+    }
+
+    /* Hero Section */
+    .hero1 {
+        position: relative;
+        height: 100vh;
+        min-height: 600px;
+        margin-top: 80px;
+        background-image: url(https://i.postimg.cc/T2zt5zTS/627933844-1212515754403017-7105408011720092202-n.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        text-align: center;
+        padding-top: 100px;
+
+
+    }
+
+ .product-corner-box {
+
+    position: absolute !important; 
+    bottom: 150px; 
+    right: 7%;   
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+ }
+
+ .product-corner-box #lumina-one {
+    font-size: 40px;
+    font-weight: 100;
+    }
+
+
+  .product-corner-box #vaterproof {
+    margin: 10px
+
+  }
+
+  .product-corner-box #color {
+    margin: 10px
+
+  }
+
+.product-corner-box #price-tag {
+    font-weight: 900;
+    font-size: xx-large;
+    margin: 15px
+
+
+}
+
+.product-corner-box #cart-button {
+    background-color: rgb(168, 223, 168);
+    font-size: large;
+    padding: 15px;
+    border-radius: 30px;
+    margin: 15px;
+    border: none;
+    width: 200px;
+    font-weight: 800;
+    letter-spacing: 6px;
+      
+}
+
+.product-corner-box #delivery-text {
+    margin-top: -10px;
+    text-align: right;
+    font-size: 10px;
+    text-align:right;
+    margin-left: 30px;
+
+
+}
+   
+
+    .hero-content h1 {
+        color: black;
+        font-size: var(--font-size-hero);
+        font-weight:150;
+        text-shadow: 1px 1px 4px rgba(208, 139, 164, 0.7);
+        letter-spacing: 2px;
+        font-weight: var(--font-weight-bold);
+        text-shadow: 1px 1px 2px black;
+        letter-spacing: 2px;
+    }
+
+
+
+
+
+
+
+    /* MOBILE/TABLET STYLES - KUN ÉT BREAKPOINT */
+    @media (max-width: 768px) {
+        header {
+            padding: 20px;
+        }
+
+        header .brand {
+            font-size: var(--font-size-large);
+        }
+        }
+
+        /* Show mobile menu label */
+        header label {
+            display: block;
+        }
+
+        /* Hide and position navbar for mobile */
+        header .navbar {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background: var(--white);
+            border-top: 1px solid rgba(0, 0, 0, 0.1);
+            display: none;
+        }
+
+        header .navbar ul {
+            flex-direction: column;
+            align-items: stretch;
+        }
+        header .navbar ul li {
+            width: 100%;
+            margin: 0;
+        }
+
+        header .navbar ul li a {
+            font-size: var(--font-size-medium);
+            padding: 20px;
+            border-bottom: 1px solid var(--light-gray);
+            text-align: left;
+        }
+
+        .workshop-btn {
+            padding: 10px 20px;
+            font-size: var(--font-size-small);
+        }
+
+        /* SHOW NAVBAR WHEN CHECKBOX IS CHECKED */
+        #menu-bar:checked ~ .navbar {
+            display: block;
+        }
+
+        .hero {
+            margin-top: 70px;
+            height: 80vh;
+        }
+
+        .hero-content h1 {
+            font-size: var(--font-size-hero-mobile);
+            padding: 0 20px;
+        }
+
