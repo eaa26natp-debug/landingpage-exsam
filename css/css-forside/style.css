@@ -50,7 +50,7 @@
         align-items: center;
         justify-content: space-between;
         z-index: 1000;
-        background-color: rgb(168, 223, 168);
+        background-color: #A59D9A
         
     }
 
@@ -92,8 +92,8 @@
         color: var(--primary-color);
         letter-spacing: 2px;
         text-decoration: none;
-       width: 65px;
-        border-radius: 60px;
+        max-width: 80px;
+        border-radius: 80px;
         padding: 12px;
         
     }
@@ -159,60 +159,35 @@
 
 
     /* Workshop button */
-    .workshop-btn {        
-        padding: 15px 30px;
+    .workshop-btn {
+        color:var(--white);
         border:none;
         border-radius:6px;
         cursor:pointer;
         transition:all 0.3s ease;
         text-decoration:none;
-        display: flex;
-        background-color: transparent;
+        display:inline-block;
     }
 
-    .search-btn {
-  background: transparent;
-  border: none;
-  cursor: pointer;
-}
+.workshop-btn .icon-kurv {
+    max-width: 30px;
+    margin: 25px
 
-.search-input {
-  width: 0;
-  opacity: 0;
-  transition: 0.3s;
-  border: 1px solid #ccc;
-  padding: 5px;
-  border-radius: 6px;
-}
 
-.search-input.active {
-  width: 150px;
-  opacity: 1;
 }
 
 .workshop-btn .icon-search {
     max-width: 20px;
     margin: 25px;
+   
 }
 
-.workshop-btn .icon-kurv {
-    max-width: 30px;
-    margin: 25px;
-
-
-}
 
     .workshop-btn:hover {
+        background-color: var(--secondary-color);
         transform: translateY(-2px);
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     }
-
-    .workshop-btn button {
-    background: transparent;
-    border: none;
-    padding: 0;
-    cursor: pointer;
-}
 
     /* Hidden checkbox for mobile menu */
     #menu-bar {
@@ -304,6 +279,12 @@
 
 }
    
+
+
+
+    
+
+
 
     .hero-content h1 {
         color: black;

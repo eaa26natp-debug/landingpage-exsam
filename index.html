@@ -13,11 +13,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css-forside/style.css">
+    <link rel="stylesheet" href="css/css-forside/style.css">
     <link rel="stylesheet" href="css/css-billeder/style.css">
-    <link rel="stylesheet" href="css/box.css/box.css">
+    <link rel="stylesheet" href="css/box.css/style-copy.css">
     <link rel="stylesheet" href="css/css-specs/style.css">
-    <link rel="stylesheet" href="css/css-slideshow/slideshow.css">
 </head>
 
 <body>
@@ -25,7 +24,7 @@
     <header>
         <!-- Brand name -->
        
-        <img src="img1/lumina-logo.png" class="brand" alt="logo">
+        <img src="imges/img1/lumina-logo.png" class="brand" alt="logo">
         
 
         <!-- Skjult checkbox til mobile menu -->
@@ -52,16 +51,9 @@
         <!-- Workshop button -->
 
     <section class="workshop-btn">
-
-    <button class="search-btn" onclick="toggleSearch()">
-        <img class="icon-search" src="img1/search_7175397.png" alt="icon søgning">
-    </button>
-
-    <input type="text" class="search-input" placeholder="Søg...">
-
-      <button>
-        <img class="icon-kurv" src="img1/trolley.png" alt="icon kurv">
-    </button>
+    
+        <img class="icon-search" src="imges/img1/search_7175397.png" alt="icon kurv">
+        <img class="icon-kurv" src="imges/img1/trolley.png" alt="icon kurv">
     
     </section>
     </header>
@@ -94,104 +86,71 @@
         <p id="vaterproof">Vandtæt udendørs højttaler</p>
         <p id="color"> Farve: Dusty Rose</p>
         <div id="price-tag">1499,-</div>
-        <button id="cart-button">Læg i kurv</button>
+        <button  id="cart-button">Læg i kurv</button>
         <p id="delivery-text">Forventet leveringstid: 2-6 hverdage</p>
     </div>
 </section>
   
 
-<hr class="breakline">
+<section>
 
-<p class="headline">Galleri</p>
-
-<!-- Slideshow -->
-<section class="slideshow-section">
-
-<div class="slideshow-container">
-
-   <div class="slide fade" >
-    <img src="img1/bord.png" alt="Grøn højtaler på">
-    </div> 
-
-<div class="slide fade" >
-    <img src="img1/soe.png" alt="Højtaler ved sø">
-    </div>
-
-    <div class="slide fade" >
-    <img src="img1/bad.png" alt="Højtaler ved badekar">
-    </div>
-
-    <div class="slide fade" >
-    <img src="img1/pool.png" alt="Højtaler ved pool">
-    </div>
-
-    <div class="slide fade" >
-    <img src="img1/strand.png" alt="Højtaler på strand">
-    </div>
-
-<a class="prev" onclick="plusSlides(-1)">❮</a>
-  <a class="next" onclick="plusSlides(1)">❯</a>
+<div class="gallery">
+    <img src="img1/bord.png" class="small" alt="Grøn højtaler på">
+    <img src="img1/soe.png" class="small" alt="Højtaler ved sø"> 
+    <img src="img1/bad.png" class="small" alt="Højtaler ved badekar">
+    <img src="img1/pool.png" class="medium" alt="Højtaler ved pool">
+    <img src="img1/strand.png" class="large" alt="Højtaler på strand">
 </div>
-
-<div class="dots">
-    <span class="dot" onclick="currentSlide(1)"></span> 
-    <span class="dot" onclick="currentSlide(2)"></span> 
-    <span class="dot" onclick="currentSlide(3)"></span> 
-    <span class="dot" onclick="currentSlide(4)"></span> 
-    <span class="dot" onclick="currentSlide(5)"></span> 
-  </div>
 
 </section>
 
 <hr class="breakline">
 
-<!-- trustpilot -->
 <article class="trustpilot">
-<img src="img1/Trustpilot.png" alt="Reviews" >
+<img src="imges/img1/Trustpilot.png" alt="Reviews" >
 </article>
 
 <hr class="breakline">
 
-   <!-- Boxs -->
 <section  class="features">
 <div class="grid">
 
     <div class="card water">
         <figure>
-            <img src="fotos-landing-page/adobe-Express-file(2).png.png" alt="dråbe">
+            <img src="imges/fotos-landing-page/adobe-Express-file(2).png.png" alt="dråbe">
         </figure>
         <h3>Vandafvisende IPX5</h3>
         <figure>
-            <img src="img1/dette_billede_er_det_rigtige-removebg-preview.png" alt="højtaler">
+            <img src="imges/img1/dette_billede_er_det_rigtige-removebg-preview.png" alt="højtaler">
         </figure>
     </div>
 
     <div class="card sound">
         <figure>
-            <img src="fotos-landing-page/Speaker_Icon.svg" alt="lydstyrke">
+            <img src="imges/fotos-landing-page/Speaker_Icon.svg" alt="lydstyrke">
         </figure>
         <h3>100dB lydstyrke</h3>
     </div>
 
     <div class="card solar">
         <figure>
-            <img src="fotos-landing-page/634955108_2188164685343838_8072572165099301531_n.png" alt="solcelle">
+            <img src="imges/fotos-landing-page/634955108_2188164685343838_8072572165099301531_n.png" alt="solcelle">
         </figure>
         <h3>Opladning VIA Solen</h3>
         <figure>
-            <img src="fotos-landing-page/626457101_908542334971532_3338900224519378059_n.png" alt="solcelle">
+            <img src="imges/fotos-landing-page/626457101_908542334971532_3338900224519378059_n.png" alt="solcelle">
         </figure>   
     </div>
 
     <div class="card triple">
             <figure>
-                <img src="fotos-landing-page/634589584_903200945766906_4445373448560554664_n.webp" alt="Bluetooth">
+                <img src="imges/fotos-landing-page/634589584_903200945766906_4445373448560554664_n.webp" alt="Bluetooth">
         </figure>
         <figure>
-            <img src="fotos-landing-page/632546379_2670097096699799_2294532860263457610_n.png" alt="Type-C">
+            <img src="imges/fotos-landing-page/632546379_2670097096699799_2294532860263457610_n.png" alt="Type-C">
         </figure>
         <figure>
-            <img src="fotos-landing-page/Adobe-Express-file(3).png" alt="3 kg">
+            <img src="imges/fotos-landing-page/Adobe-Express-file(3).png" alt="3 kg">
         </figure>
             <h3>Bluetooth - 5.3</h3>
         <h3>Type-C import</h3>
@@ -202,11 +161,11 @@
 
     <div class="card app">
         <figure>
-            <img src="fotos-landing-page/450545700_1688143415058776_5759401084283862686_n.png" alt="telefon">
+            <img src="imges/fotos-landing-page/450545700_1688143415058776_5759401084283862686_n.png" alt="telefon">
         </figure>
         <h3>Styring via App</h3>
         <figure>
-            <img src="fotos-landing-page/Adobe-Express-file-kopi-2.png" alt="højtaler">
+            <img src="imges/fotos-landing-page/Adobe-Express-file-kopi-2.png" alt="højtaler">
         </figure>
     </div>
 
@@ -252,7 +211,7 @@
     
 <!-- Billede af højtaleres farver -->
 <figure class="pic-container">     
-<img class="pictures" id=dif-colors-pic src="img/all-colors.png" alt="Forskellige farve varianter">
+<img class="pictures" id=dif-colors-pic src="imges/img/all-colors.png" alt="Forskellige farve varianter">
 </figure>
 
 </article>
@@ -279,7 +238,7 @@
 
     <!-- Billede af mennesker omkring højtaler -->
      <figure class="pic-container">
-<img class="pictures" id=community-pic src="img/community.png" alt="Fælleskab omkring Lumina One">
+<img class="pictures" id=community-pic src="imges/img/community.png" alt="Fælleskab omkring Lumina One">
     </figure>
 
 </article>
@@ -307,7 +266,7 @@
 
     <figure class="pic-container">
     <!-- Bagside af højtaler billede -->
-<img class="pictures" id="speaker-bottons-pic" src="img/speaker-bottons-png.png" alt="Bagside af Lumina One">
+<img class="pictures" id="speaker-bottons-pic" src="imges/img/speaker-bottons-png.png" alt="Bagside af Lumina One">
     </figure>
 
 </article>
@@ -335,7 +294,7 @@
 
 <!-- Billede af totebag -->
  <figure class="pic-container">
-<img class="pictures" id="totebag-pic" src="img/totebag.png" alt="Stof tote-bag med LUMINA AUDIO Logo">
+<img class="pictures" id="totebag-pic" src="imges/img/totebag.png" alt="Stof tote-bag med LUMINA AUDIO Logo">
 </figure>
 
 
@@ -356,18 +315,17 @@
 <p>Tilbehør</p>
 <hr class="footer-line">
 </article>
-
-<p>Email: <a href="">.....</a></p>
-
-<h6>&copy; 2023 Lumina Audio. All rights reserved.</h6>
-
 </footer>
 
 
 
 
 
-    <script src="js/stricp.js"></script>
+
+
+
+
+
 </body>
 </html>
 
