@@ -69,6 +69,14 @@ body {
 margin-bottom: 100px;
 }
 
+.trustimg{
+    width: 700px;
+    height: 700px;
+    object-fit: contain;
+ margin-top: 89px;
+    margin-left: -900px;
+}
+
 .breakline{
 border-color: rgb(138, 132, 132);
 margin: 100px;
