@@ -50,7 +50,7 @@
         align-items: center;
         justify-content: space-between;
         z-index: 1000;
-        background-color: #A59D9A
+        background-color: #DACDC0;
         
     }
 
@@ -72,16 +72,18 @@
     }
 
     .navbar2{
-        word-spacing: 70px;
+        word-spacing: 30px;
     }
     
     #description{
         text-decoration: none;
-        color: black;
+        color: rgb(0, 0, 0);
+        font-weight: var(--font-weight-bold);
     }
     #specications{
         text-decoration: none;
         color: black;
+        font-weight: var(--font-weight-bold);
     }
 
 
@@ -135,7 +137,7 @@
         transition:color 0.3s ease;
     }
 
-    header2 .navbar2 ul li a {
+  .navbar2 ul li a {
         text-decoration:none;
         font-size:var(--font-size-base);
         padding: 15px 50px;
