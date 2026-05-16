@@ -95,4 +95,41 @@ html {
     scroll-behavior: smooth;
 }
 
- .indfrocard { background:white; padding:12px; border-radius:8px; box-shadow:0 3px 8px rgba(0,0,0,0.1); font-size:14px; height:auto; }
+
+
+
+.colorcards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 kolonner */
+    gap: 30px;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+ .indfrocard { 
+    background:white; 
+    padding:12px; 
+    border-radius:8px; 
+    box-shadow:0 3px 8px rgba(0,0,0,0.1); 
+    font-size:14px; height:auto; 
+    width:300px; 
+    margin:20px auto; 
+    justify-content: center;
+    }
+
+.whitespeaker {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: auto;
+}
+
+.text {
+    text-align: center;
+    font-family: "Inter", sans serif;
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 10px;
+        font-style: italic; /* skrå tekst som billede 2 */
+}

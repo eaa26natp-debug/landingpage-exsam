@@ -11,3 +11,14 @@
 (/imges/skærmbillede2026-05-1414-02-40.png)
 
 ###### Så begyndte jeg at ændre få ting som farver og fjerne de overskyet ting.
+
+###### Så lavede jeg et søgefelt og skrev noget JS kode ind.
+
+###### Det næste blev at sætte Trustpilot ned til footeren og få det ud til siden med den rette størelse.
+
+######
+
+
+######
+
+######

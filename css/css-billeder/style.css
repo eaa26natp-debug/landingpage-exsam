@@ -1,60 +1,76 @@
 body {
     background-color: #EDE2D6;
 }
-.gallery {
-    overflow: hidden;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 300px 400px; /* øgede højder for større billeder */
-    gap: 20px;
-    padding: 40px;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    margin-bottom: 100px;
+/* Optional: Add some transition effects */
+.slideshow-section {
+  width: 100%;
+  max-width: 600px;
+  margin: 40px auto;
 }
 
-.gallery img:hover {
-    transform: scale(1.05);
-    filter: brightness(0.8);
-    
+.slideshow-container {
+  position: relative;
+  width: 100%;
 }
 
-.gallery img {
-    transition: transform 0.3s ease;
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* fylder cellen uden forvrængning */
-    display: block;
+.slide {
+  display: none;
 }
 
-/* Øverste række */
-.small:nth-of-type(1) {
-    grid-column: 1;
-    grid-row: 1;
+.slide img {
+  width: 100%;
+  border-radius: 12px;
 }
 
-.small:nth-of-type(2) {
-    grid-column: 2;
-    grid-row: 1;
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  padding: 10px;
+  color: white;
+  background: rgba(0,0,0,0.4);
+  transform: translateY(-50%);
 }
 
-.small:nth-of-type(3) {
-    grid-column: 3;
-    grid-row: 1;
+.prev {
+  left: 10px;
 }
 
-/* Nederste venstre */
-.medium {
-    grid-column: 1;
-    grid-row: 2;
+.next {
+  right: 10px;
 }
 
-/* Nederste højre – pool billedet */
-.large {
-    grid-column: 2 / 4;
-    grid-row: 2;
-    object-fit: contain;
+.fade {
+  animation: fade 1s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.dots {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 5px;
+  background-color: gray;
+  display: inline-block;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.dot:hover {
+  background-color: navy;
+}
+
+.active {
+  background-color: rgb(168, 223, 168);
 }
 
 .hr {
