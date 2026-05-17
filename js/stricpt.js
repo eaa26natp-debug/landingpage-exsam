@@ -58,6 +58,24 @@ function showSlides(n) {
   dots[slideIndex - 1].classList.add("active");
 }
 
+// Søgefelt
 function toggleSearch() {
   document.querySelector(".search-input").classList.toggle("active");
+}
+
+// Flip-card
+const totebagCard = document.getElementById("totebagCard");
+
+if (totebagCard) {
+  totebagCard.addEventListener("click", function () {
+    totebagCard.classList.toggle("flipped");
+  });
+}
+
+const speakerBottonsCard = document.getElementById("speaker-bottons-picCard");
+
+if (speakerbottonspicCard) {
+  speakerbottonspicCard.addEventListener("click", function () {
+    speakerbottonspicCard.classList.toggle("flipped");
+  });
 }

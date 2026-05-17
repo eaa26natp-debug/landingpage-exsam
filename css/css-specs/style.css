@@ -63,9 +63,70 @@ width: 100px;
 margin-top: 120px;
 }
 
-#totebag-pic{
-    margin-left: 150px;
+.images {
+  display: flex;
+  gap: 20px;
 }
+
+.flipcard {
+  width: 250px;
+  height: 250px;
+  margin: 0;
+  position: relative;
+  cursor: pointer;
+  perspective: 1000px;
+}
+
+/* Front + Back */
+.flipcard img,
+.flipcard figcaption {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  transition: transform 0.6s;
+}
+
+/* Billedet */
+.flipcard img {
+  object-fit: contain;
+}
+
+/* Bagsiden */
+.flipcard figcaption {
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+  transform: rotateY(180deg);
+}
+
+/* Når vi klikker */
+.flipcard.flipped img {
+  transform: rotateY(180deg);
+}
+
+.flipcard.flipped figcaption {
+  transform: rotateY(360deg);
+}
+
+.flipcard figcaption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;   /* ← denne centrerer vandret */
+  text-align: center;    /* ← denne centrerer teksten */
+}
+
+.description {
+    font-size: 1.2rem;
+    color: black;
+}
+
+
+
 
 .footer{
     background-color: #DACDC0;
@@ -94,7 +155,6 @@ border-width: 0.001em;
 html {
     scroll-behavior: smooth;
 }
-
 
 
 
