@@ -209,3 +209,33 @@ html {
     margin:20px auto; 
     justify-content: center;
     }
+
+  .gifcard { 
+    background: white; 
+    padding: 50px; 
+    border-radius: 8px; 
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1); 
+    font-size: 14px;
+    width: 300px; 
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+}
+
+/* Billede/GIF */
+.gifcard img,
+.gifcard video {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+}
+
+.cards{
+    display: flex;
+    gap: 20px;          /* afstand mellem kort */
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;    /* gør dem responsive */
+}
