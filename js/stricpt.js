@@ -65,6 +65,8 @@ function toggleSearch() {
 
 // Flip-card
 const totebagCard = document.getElementById("totebagCard");
+const speakerBottonsCard = document.getElementById("speakerbottonspicCard");
+const modespeakerCard = document.getElementById("modespeakerCard");
 
 if (totebagCard) {
   totebagCard.addEventListener("click", function () {
@@ -72,10 +74,15 @@ if (totebagCard) {
   });
 }
 
-const speakerBottonsCard = document.getElementById("speaker-bottons-picCard");
-
 if (speakerbottonspicCard) {
   speakerbottonspicCard.addEventListener("click", function () {
     speakerbottonspicCard.classList.toggle("flipped");
+  });
+}
+
+
+if (modespeakerCard) {
+  modespeakerCard.addEventListener("click", function () {
+    modespeakerCard.classList.toggle("flipped");
   });
 }
