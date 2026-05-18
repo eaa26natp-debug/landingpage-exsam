@@ -198,3 +198,14 @@ html {
     margin-top: 10px;
         font-style: italic; /* skrå tekst som billede 2 */
 }
+
+ .card { 
+    background:white; 
+    padding:50px; 
+    border-radius:8px; 
+    box-shadow:0 3px 8px rgba(0,0,0,0.1); 
+    font-size:14px; height:auto; 
+    width:300px; 
+    margin:20px auto; 
+    justify-content: center;
+    }
