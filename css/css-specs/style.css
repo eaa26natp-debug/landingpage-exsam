@@ -280,3 +280,8 @@ html {
     width: 100%;
     font-family: "Inter", sans-serif ;
 }
+
+#dif-colors-pic {
+    width: 450px;
+    border-radius: 10px;
+}   
