@@ -21,8 +21,7 @@ Hvordan mappestrukturen ser ud nu.
  Det næste blev at sætte Trustpilot ned til footeren og få det ud til siden med den rette størelse.
 
 ###### JS beskrivelse
-Der er brugt document og querSelector, og function toggleSearch.
-QuerSelector er med til at finde .search-input. ToggleSearch er funstion til at få det til at virke.
+Er koden som bruge til søgning. Det gøre, at man kan skrive noget ind i søgefeltet. Det får hjemmesiden til at virke som en rigtig hjemmeside, hvopr man kan søge på.
 ```JS
 function toggleSearch() {
   document.querySelector(".search-input").classList.toggle("active");
