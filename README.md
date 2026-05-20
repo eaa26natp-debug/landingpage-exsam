@@ -12,16 +12,24 @@ Min landing page er for folk, som har brug for at have en hjemmeside, for noget 
 
 #### Det første jeg gjorde efter Github og sæt min gamle landing page ind, var at lave struktur i mappefordeling.
 
+Mappestrukturen var meget rodet og med så mange css-mapper framme kunne det blive lidt forvirret.
+
 Hvordan mappenstrukturen så ud.
 ![Som det så ud før.](/imges/skærmbillede2026-05-1307-43-32.png)
 
+Mere struktur og mindre rodet at se på.
+
 Hvordan mappestrukturen ser ud nu.
 ![Og sådan ser den ud nu.](/imges/skærmbillede2026-05-1414-02-40.png)
+
+Det gør det nemmere, at se hvad der er hvad, når man laver en CSS mappe og en JS mappe. Billeder har også deres mappe, som hedder imges, hvor man kan finde alle billeder som bliver brugt og nogle flere.
 
 ### Næsten var mange ting, som bare skulle tilføjes eller slettes
 
 Så begyndte jeg at ændre få ting som farver og fjerne de overskyet ting.
 Det næste blev at sætte Trustpilot ned til footeren og få det ud til siden med den rette størelse. Se hvad jeg kunne bruge og hvad efter min mening skulles ændre.
+
+Jeg fik også lavet nye billeder som jeg valgte at bruge i stedet for nogle af de gamle.
 
 Oprette en JS mappe.
 
