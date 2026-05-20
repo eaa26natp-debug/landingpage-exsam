@@ -1,5 +1,6 @@
 "use strict";
 
+// Slideshow
 let index = 0;
 const slides = document.querySelectorAll(".slide");
 
