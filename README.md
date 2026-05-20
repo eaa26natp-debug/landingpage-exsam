@@ -2,6 +2,12 @@
 
 Min landing page er for folk, som har brug for at have en hjemmeside, for noget simpel.
 
+##### Forbedring
+- Slideshow
+- Søgefelt
+- funktioner og specifikationer
+- Billder af højtaler
+
 ## Opstarting.
 
 #### Det første jeg gjorde efter Github og sæt min gamle landing page ind, var at lave struktur i mappefordeling.
@@ -27,7 +33,7 @@ Så begyndte jeg at lave slideshowt, i HTML, CSS og JS.
 #### Funktioner og specifikationer
 Lavede jeg helt om jeg, lavede mit eget forbedre design. Hvor der er hvide kasser i stedet for at de bare står med skrift og et billede. Lavede jeg to forskellige størrelser af kasser. 3 hvor som man kan flippe og hvor beskrivelsen hvor bag på og 2 stor, hvor der står i punktform af en lidt beskrivelse.
 
-#### Det sidste jeg lavede
+### Det sidste jeg lavede
 Er at rette i min kode, for at være sikker på at der ikke er nogle fejl.
 
 #### JS beskrivelse
