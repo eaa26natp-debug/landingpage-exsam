@@ -12,15 +12,24 @@ Hvordan mappenstrukturen så ud.
 Hvordan mappestrukturen ser ud nu.
 ![Og sådan ser den ud nu.](/imges/skærmbillede2026-05-1414-02-40.png)
 
-#### Næsten var mange ting, som bare skulle tilføjes eller slettes
+### Næsten var mange ting, som bare skulle tilføjes eller slettes
 
- Så begyndte jeg at ændre få ting som farver og fjerne de overskyet ting.
+Så begyndte jeg at ændre få ting som farver og fjerne de overskyet ting.
+Det næste blev at sætte Trustpilot ned til footeren og få det ud til siden med den rette størelse. Se hvad jeg kunne bruge og hvad efter min mening skulles ændre.
 
- Så lavede jeg et søgefelt og skrev noget JS kode ind.
+Oprette en JS mappe.
 
- Det næste blev at sætte Trustpilot ned til footeren og få det ud til siden med den rette størelse.
+### Det næste ting jeg lavede
+Så lavede jeg et søgefelt og skrev noget JS kode ind. Som det første JS kode, jeg lavede. Oprettede de 4 firkanter med billeder af højtaleren.
 
-###### JS beskrivelse
+Så begyndte jeg at lave slideshowt, i HTML, CSS og JS.
+
+###
+
+#### Det sidste jeg lavede
+Er at rette i min kode, for at være sikker på at der ikke er nogle fejl.
+
+#### JS beskrivelse
 Er koden som bruge til søgning. Det gøre, at man kan skrive noget ind i søgefeltet. Det får hjemmesiden til at virke som en rigtig hjemmeside, hvopr man kan søge på.
 ```JS
 function toggleSearch() {
@@ -28,3 +37,9 @@ function toggleSearch() {
 }
 ````
 
+```HTML
+<article class="indfrocard">
+    <img class="whitespeaker" src="imges/img1/bco.png" alt="">
+    <p class="text">Lavender Mist</p>
+</article>
+```
