@@ -60,3 +60,20 @@ function toggleSearch() {
     <p class="text">Lavender Mist</p>
 </article>
 ```
+
+### Validering af HTML
+Jeg har validet index og så jeg har advarsler, som jeg gerne må have, men ingen fejl.
+![Validering af HTML.](/imges/skærmbillede2026-05-2116-44-55.png)
+
+### Validering af CSS
+Da jeg har 4 css filer, har jeg validede jeg dem alle.
+
+Specs, hvor jeg har funktioner og specifikationer, gif.
+![Validering af CSS.](/imges/skærmbillede2026-05-2116-53-32.png)
+
+Forsiden, billedene af højtaleren og menu-bar.
+![Validering af CSS.](/imges/skærmbillede2026-05-2116-54-37.png)
+Shildeshow og trustpilot
+![Validering af CSS.](/imges/skærmbillede2026-05-2116-55-32.png)
+Boxene.
+![Validering af CSS.](/imges/skærmbillede2026-05-2116-56-08.png)

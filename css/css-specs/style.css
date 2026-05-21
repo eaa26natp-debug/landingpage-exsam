@@ -1,7 +1,7 @@
 
 .headline {
 font-size: 35px;
-font-family: "Inter", sans serif;
+font-family: "Inter", sans-serif;
 font-weight: 400;
 font-style: normal;
 margin-left: 50px;
@@ -14,24 +14,24 @@ margin-top: 100px;
     margin-top: 30px;
     margin-left: 50px;
     font-size: 30px;
-    font-family: "Inter", sans serif;
+    font-family: "Inter", sans-serif;
     font-weight:300
 }
 
 .bullets{
 margin-top: 30px;
-    margin-left: 70px;
-    font-size: 16px;
-    font-family: "Inter", sans serif;
-    font-weight: 300;
-    line-height: 28px;
+margin-left: 70px;
+font-size: 16px;
+font-family: "Inter", sans-serif;
+font-weight: 300;
+line-height: 28px;
 
 }
 
 .descriptions{
     margin-left: 70px;
     font-size: 16px;
-    font-family: "Inter", sans serif;
+    font-family: "Inter", sans-serif;
     font-weight: 300;
     line-height: 30px;
     font-style: italic;
@@ -133,7 +133,7 @@ margin-top: 120px;
 
 
 .footer{
-    background-color: #DACDC0;
+background-color: #DACDC0;
 padding: 60px 20px;
 }
 
@@ -141,7 +141,7 @@ padding: 60px 20px;
 display: flex;
 flex-direction: row;
 justify-content: space-around;
-font-family:"Inter", sans serif;
+font-family:"Inter", sans-serif;
 font-weight: 200;
 }
 
@@ -187,16 +187,16 @@ html {
     margin: 0 auto;
     width: 100px;
     height: auto;
-    padding: -5px;
+    padding: 0;
 }
 
 .text {
     text-align: center;
-    font-family: "Inter", sans serif;
+    font-family: "Inter", sans-serif;
     font-weight: 300;
     font-size: 16px;
     margin-top: 10px;
-        font-style: italic; /* skrå tekst som billede 2 */
+    font-style: italic; /* skrå tekst som billede 2 */
 }
 
  .card { 
