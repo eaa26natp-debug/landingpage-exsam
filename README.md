@@ -42,7 +42,7 @@ Så begyndte jeg at lave slideshowt, i HTML, CSS og JS.
 Lavede jeg helt om jeg, lavede mit eget forbedre design. Hvor der er hvide kasser i stedet for at de bare står med skrift og et billede. Lavede jeg to forskellige størrelser af kasser. 3 hvor som man kan flippe og hvor beskrivelsen hvor bag på og 2 stor, hvor der står i punktform af en lidt beskrivelse.
 
 ### Det sidste jeg lavede
-Er at rette i min kode, for at være sikker på at der ikke er nogle fejl.
+Er at rette i min kode, for at være sikker på at der ikke er nogle fejl. Ændre div tegn til blok tegn.
 
 #### JS beskrivelse
 Er koden som bruge til søgning. Det gøre, at man kan skrive noget ind i søgefeltet. Det får hjemmesiden til at virke som en rigtig hjemmeside, hvopr man kan søge på.
