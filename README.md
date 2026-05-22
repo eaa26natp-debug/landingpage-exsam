@@ -20,7 +20,7 @@ Hvordan mappenstrukturen så ud.
 Mere struktur og mindre rodet at se på.
 
 Hvordan mappestrukturen ser ud nu.
-![Og sådan ser den ud nu.](/imges/skærmbillede2026-05-1414-02-40.png)
+![Og sådan ser den ud nu.](/imges/skærmbillede2026-05-222-27-05.png)
 
 Det gør det nemmere, at se hvad der er hvad, når man laver en CSS mappe og en JS mappe. Billeder har også deres mappe, som hedder imges, hvor man kan finde alle billeder som bliver brugt og nogle flere.
 
