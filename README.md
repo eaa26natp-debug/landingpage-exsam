@@ -15,12 +15,12 @@ Min landing page er for folk, som har brug for at have en hjemmeside, for noget 
 Mappestrukturen var meget rodet og med så mange css-mapper framme kunne det blive lidt forvirret.
 
 Hvordan mappenstrukturen så ud.
-![Som det så ud før.](/imges/skærmbillede2026-05-1307-43-32.png)
+![Som det så ud før.](/imges/gamle-mappe.png)
 
 Mere struktur og mindre rodet at se på.
 
 Hvordan mappestrukturen ser ud nu.
-![Og sådan ser den ud nu.](/imges/skærmbillede2026-05-222-27-05.png)
+![Og sådan ser den ud nu.](/imges/nye-mappe.png)
 
 Det gør det nemmere, at se hvad der er hvad, når man laver en CSS mappe og en JS mappe. Billeder har også deres mappe, som hedder imges, hvor man kan finde alle billeder som bliver brugt og nogle flere.
 
@@ -63,17 +63,17 @@ function toggleSearch() {
 
 ### Validering af HTML
 Jeg har validet index og så jeg har advarsler, som jeg gerne må have, men ingen fejl.
-![Validering af HTML.](/imges/skærmbillede2026-05-2116-44-55.png)
+![Validering af HTML.](/imges/validering-af-htmlpng)
 
 ### Validering af CSS
 Da jeg har 4 css filer, har jeg validede jeg dem alle.
 
 Specs, hvor jeg har funktioner og specifikationer, gif.
-![Validering af CSS.](/imges/skærmbillede2026-05-2116-53-32.png)
+![Validering af CSS.](/imges/validering-af-css1.png)
 
 Forsiden, billedene af højtaleren og menu-bar.
-![Validering af CSS.](/imges/skærmbillede2026-05-2116-54-37.png)
+![Validering af CSS.](/imges/validering-af-css2.png)
 Shildeshow og trustpilot
-![Validering af CSS.](/imges/skærmbillede2026-05-2116-55-32.png)
+![Validering af CSS.](/imges/validering-af-css3.png)
 Boxene.
-![Validering af CSS.](/imges/skærmbillede2026-05-2116-56-08.png)
+![Validering af CSS.](/imges/validering-af-css4.png)
