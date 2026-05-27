@@ -11,6 +11,7 @@ Min landing page er for folk, som har brug for at have en hjemmeside, for noget 
 ## Opstarting.
 
 #### Det første jeg gjorde efter Github og sæt min gamle landing page ind, var at lave struktur i mappefordeling.
+Jeg valgte den her mappestruktur, fordi det er den jeg har lært om, når der er mange filer.
 
 Mappestrukturen var meget rodet og med så mange css-mapper framme kunne det blive lidt forvirret.
 
@@ -33,16 +34,19 @@ Jeg fik også lavet nye billeder som jeg valgte at bruge i stedet for nogle af d
 
 Oprette en JS mappe.
 
+Rette noget af det gamle, som jeg gerne ville have. Jeg flyttede trustpilot ned i bunden.
+
 ### Det næste ting jeg lavede
-Så lavede jeg et søgefelt og skrev noget JS kode ind. Som det første JS kode, jeg lavede. Oprettede de 4 firkanter med billeder af højtaleren.
+Så lavede jeg et søgefelt, som det første JS kode, jeg lavede. Oprettede de 4 firkanter med billeder af højtaleren.
 
 Så begyndte jeg at lave slideshowt, i HTML, CSS og JS.
+
 
 #### Funktioner og specifikationer
 Lavede jeg helt om jeg, lavede mit eget forbedre design. Hvor der er hvide kasser i stedet for at de bare står med skrift og et billede. Lavede jeg to forskellige størrelser af kasser. 3 hvor som man kan flippe og hvor beskrivelsen hvor bag på og 2 stor, hvor der står i punktform af en lidt beskrivelse.
 
 ### Det sidste jeg lavede
-Er at rette i min kode, for at være sikker på at der ikke er nogle fejl. Ændre div tegn til blok tegn.
+Er at rette i min kode, for at være sikker på at der ikke er nogle fejl. Ændre så mange div tegn. Fjerne de som ikke bliver brugt. Skrive README færdig.
 
 #### JS beskrivelse
 Er koden som bruge til søgning. Det gøre, at man kan skrive noget ind i søgefeltet. Det får hjemmesiden til at virke som en rigtig hjemmeside, hvopr man kan søge på.
@@ -53,7 +57,7 @@ function toggleSearch() {
 ````
 
 ####  HTML kode
-
+Er koden til containerne med billeder af højttaleren.
 ```HTML
 <article class="indfrocard">
     <img class="whitespeaker" src="imges/img1/bco.png" alt="">
@@ -66,14 +70,19 @@ Jeg har validet index og så jeg har advarsler, som jeg gerne må have, men inge
 ![Validering af HTML.](/imges/validering-af-htmlpng)
 
 ### Validering af CSS
-Da jeg har 4 css filer, har jeg validede jeg dem alle.
+Da jeg har 5 css filer, har jeg validede jeg dem alle. Jeg har ikke nogle fejl, hvilket er godt.
 
 Specs, hvor jeg har funktioner og specifikationer, gif.
 ![Validering af CSS.](/imges/validering-af-css1.png)
 
 Forsiden, billedene af højtaleren og menu-bar.
 ![Validering af CSS.](/imges/validering-af-css2.png)
+
 Shildeshow og trustpilot
 ![Validering af CSS.](/imges/validering-af-css3.png)
+
 Boxene.
 ![Validering af CSS.](/imges/validering-af-css4.png)
+
+Flip card.
+![Validering af CSS.](/imges/valiafcss.png)
